@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkins-agent-1'
+        label 'agent-1'
     }
     environment {
         IMAGE_NAME = 'python-ci-demo'
